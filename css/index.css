@@ -129,6 +129,10 @@ table {
 * {
   box-sizing: border-box;
 }
+* a {
+  text-decoration: none;
+  color: none;
+}
 html {
   font-size: 62.5%;
 }
@@ -166,11 +170,17 @@ p {
   align-items: center;
 }
 .links h1 {
-  font-size: 3.4rem;
-  background-color: aqua;
+  font-size: 4rem;
 }
 .links .a-links {
+  display: flex;
   font-size: 1.8rem;
+  margin: 1%;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.links a {
+  color: black;
 }
 footer {
   color: #22283B;
@@ -223,6 +233,28 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: black;
+  margin: 0 10px 20px;
+  color: white;
+  width: 100px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding-top: 3%;
+  padding-left: 4%;
+  /*display: block;
+        background-color: black;
+        margin: 0 10px 20px;
+        color:white;
+        width: 100px;
+        height: 45px;
+        font-size: 2rem;
+        border-radius: 10px;
+        padding-top:2%;
+        padding-left:4%*/
 }
 .home .walk .walk-img {
   width: 46%;

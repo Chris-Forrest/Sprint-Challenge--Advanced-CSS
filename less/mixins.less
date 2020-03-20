@@ -1,1 +1,29 @@
 // Mixins Here
+.flexBox(){
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+.aLinksStyling(){
+        display:flex;
+        font-size:1.8rem;
+        margin:1%;
+        width:50%;
+        justify-content: space-evenly;
+    } 
+
+.btnStyle(@bgcolor, @color){
+    display: block;
+    background-color:@bgcolor;
+    margin: 0 10px 20px;
+    color:@color;
+    width: 100px;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-top:3%;
+    padding-left:4%
+}
