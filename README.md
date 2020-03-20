@@ -50,7 +50,7 @@ It provides a scripting language so we can use logic in css coding so we can use
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-My favorite thing is using mixins so I don't have to keep writing redunt code.I think the nesting of media breaks inside of the original code gave me the most problems but it's easier than designing entire media breakpoint sections.
+My favorite thing is using mixins so I don't have to keep writing redunt code.The nesting of media breaks inside of the original code gave me the most problems.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

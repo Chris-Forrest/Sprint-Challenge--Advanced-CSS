@@ -168,6 +168,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* h1 closes */
+  /*a-links closes*/
 }
 .links h1 {
   font-size: 4rem;
@@ -178,8 +180,10 @@ p {
   margin: 1%;
   width: 50%;
   justify-content: space-evenly;
+  background-color: red;
+  /*medis break closes*/
 }
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   .links .a-links {
     background-color: aqua;
     width: 100%;
@@ -192,6 +196,7 @@ p {
 .links a {
   color: black;
 }
+/*links closes */
 footer {
   color: #22283B;
   background: #f4f4f4;
