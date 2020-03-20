@@ -202,6 +202,10 @@ p {
 .links a {
   color: black;
 }
+.links a:hover {
+  background-color: black;
+  color: white;
+}
 /*links closes */
 footer {
   color: #22283B;
@@ -310,6 +314,7 @@ footer {
         border-radius: 10px;
         padding-top:2%;
         padding-left:4%*/
+  /*   hover closes */
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -327,6 +332,10 @@ footer {
     height: 60px;
     padding-top: 5%;
   }
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
