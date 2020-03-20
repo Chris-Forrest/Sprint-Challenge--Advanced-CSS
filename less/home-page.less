@@ -58,7 +58,7 @@
       }
 
       .btn {
-        .btnStyle(@bgcolor:black; @color:white);
+        .btnStyle(@bgcolor:black; @color:white; @width:100px);
         /*display: block;
         background-color: black;
         margin: 0 10px 20px;
@@ -69,8 +69,11 @@
         border-radius: 10px;
         padding-top:2%;
         padding-left:4%*/
+        @media @phone{
+          .btnStyle(@bgcolor:black, @color:white, @width:100%);
+        }
       }
-    }
+  }
 
     .walk-img {
       width: 46%;

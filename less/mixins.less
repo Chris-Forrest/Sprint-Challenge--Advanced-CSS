@@ -14,12 +14,12 @@
         justify-content: space-evenly;
     } 
 
-.btnStyle(@bgcolor, @color){
+.btnStyle(@bgcolor, @color, @width){
     display: block;
     background-color:@bgcolor;
     margin: 0 10px 20px;
     color:@color;
-    width: 100px;
+    width: @width;
     height: 45px;
     font-size: 2rem;
     border-radius: 10px;
